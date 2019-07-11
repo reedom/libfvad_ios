@@ -1,15 +1,15 @@
-# libfvad_ios
+# libfvad_ios: voice activity detection (VAD) library
 
-[![CI Status](https://img.shields.io/travis/reedom/libfvad_ios.svg?style=flat)](https://travis-ci.org/reedom/libfvad_ios)
 [![Version](https://img.shields.io/cocoapods/v/libfvad_ios.svg?style=flat)](https://cocoapods.org/pods/libfvad_ios)
 [![License](https://img.shields.io/cocoapods/l/libfvad_ios.svg?style=flat)](https://cocoapods.org/pods/libfvad_ios)
 [![Platform](https://img.shields.io/cocoapods/p/libfvad_ios.svg?style=flat)](https://cocoapods.org/pods/libfvad_ios)
 
-## Example
+This is an iOS port of the VAD engine, a part of [WebRTC][].  
+Most of the porting work is found at [https://github.com/dpirch/libfvad][].
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+[WebRTC]: https://webrtc.org/
+[https://github.com/dpirch/libfvad]: https://github.com/dpirch/libfvad
 
 ## Installation
 
@@ -17,7 +17,7 @@ libfvad_ios is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'libfvad_ios'
+pod 'libfvad'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ reedom, tohru@reedom.com
 
 ## License
 
-libfvad_ios is available under the MIT license. See the LICENSE file for more info.
+See the LICENSE file for more info.
