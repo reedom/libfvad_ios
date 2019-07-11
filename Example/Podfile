@@ -1,0 +1,6 @@
+use_frameworks!
+target 'libfvad_ios_Tests' do
+  pod 'libfvad_ios', :path => '../'
+  
+  
+end
